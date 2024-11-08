@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".QuizActivity">
+
+    <!-- True button menu item -->
+    <item
+        android:id="@+id/true_button"
+        android:title="@string/true_button"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <!-- False button menu item -->
+    <item
+        android:id="@+id/false_button"
+        android:title="@string/false_button"
+        android:orderInCategory="101"
+        app:showAsAction="never"/>
+
+    <!-- Settings menu item -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="102"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>
